@@ -1,0 +1,30 @@
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto 920bc0d3b8f64d3490ae7cf19e8fd5a5 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_sos_behav xil_defaultlib.tb_sos xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-5021] port 'RST' is not connected on this instance [C:/Users/dwigh/Xilinx/IIR_Filter/IIR_Filter.srcs/sources_1/new/IIR_Filter.v:69]
+WARNING: [VRFC 10-5021] port 'RST' is not connected on this instance [C:/Users/dwigh/Xilinx/IIR_Filter/IIR_Filter.srcs/sources_1/new/IIR_Filter.v:77]
+WARNING: [VRFC 10-5021] port 'RST' is not connected on this instance [C:/Users/dwigh/Xilinx/IIR_Filter/IIR_Filter.srcs/sources_1/new/IIR_Filter.v:85]
+WARNING: [VRFC 10-5021] port 'RST' is not connected on this instance [C:/Users/dwigh/Xilinx/IIR_Filter/IIR_Filter.srcs/sources_1/new/IIR_Filter.v:89]
+WARNING: [VRFC 10-5021] port 'RST' is not connected on this instance [C:/Users/dwigh/Xilinx/IIR_Filter/IIR_Filter.srcs/sources_1/new/IIR_Filter.v:93]
+WARNING: [VRFC 10-5021] port 'RST' is not connected on this instance [C:/Users/dwigh/Xilinx/IIR_Filter/IIR_Filter.srcs/sources_1/new/IIR_Filter.v:101]
+WARNING: [VRFC 10-5021] port 'RST' is not connected on this instance [C:/Users/dwigh/Xilinx/IIR_Filter/IIR_Filter.srcs/sources_1/new/IIR_Filter.v:108]
+WARNING: [VRFC 10-5021] port 'RST' is not connected on this instance [C:/Users/dwigh/Xilinx/IIR_Filter/IIR_Filter.srcs/sources_1/new/IIR_Filter.v:117]
+WARNING: [VRFC 10-5021] port 'RST' is not connected on this instance [C:/Users/dwigh/Xilinx/IIR_Filter/IIR_Filter.srcs/sources_1/new/IIR_Filter.v:123]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.FixedPointMult(WI1=5,WF1=11,WI2=...
+WARNING: [VRFC 10-1324] repetition multiplier must be positive [C:/Users/dwigh/Xilinx/IIR_Filter/IIR_Filter.srcs/sources_1/new/FixedMult.v:59]
+WARNING: [VRFC 10-1324] repetition multiplier must be positive [C:/Users/dwigh/Xilinx/IIR_Filter/IIR_Filter.srcs/sources_1/new/FixedMult.v:61]
+WARNING: [VRFC 10-1324] repetition multiplier must be positive [C:/Users/dwigh/Xilinx/IIR_Filter/IIR_Filter.srcs/sources_1/new/FixedMult.v:71]
+WARNING: [VRFC 10-1324] repetition multiplier must be positive [C:/Users/dwigh/Xilinx/IIR_Filter/IIR_Filter.srcs/sources_1/new/FixedMult.v:75]
+Compiling module xil_defaultlib.DFF
+Compiling module xil_defaultlib.FixedPointAdder(WI1=5,WF1=11,WI2...
+Compiling module xil_defaultlib.sos_default
+Compiling module xil_defaultlib.tb_sos
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_sos_behav

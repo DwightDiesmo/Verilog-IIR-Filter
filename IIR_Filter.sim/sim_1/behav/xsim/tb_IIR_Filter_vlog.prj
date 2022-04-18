@@ -1,0 +1,13 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../IIR_Filter.srcs/sources_1/new/DFF.v" \
+"../../../../IIR_Filter.srcs/sources_1/new/FixedAdder.v" \
+"../../../../IIR_Filter.srcs/sources_1/new/FixedMult.v" \
+"../../../../IIR_Filter.srcs/sources_1/new/IIR_Filter.v" \
+"../../../../IIR_Filter.srcs/sim_1/new/tb_IIR_Filter.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
